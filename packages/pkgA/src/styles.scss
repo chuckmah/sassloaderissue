@@ -1,0 +1,9 @@
+/* Import all modul styles except the font */
+
+$m-font-path: 'https://contenu.monportail.ulaval.ca/mpo/packages/@ul/mpo-assets/1.0.0/'; //this is required.
+
+@import '~@ulaval/modul-components/dist/styles/main.scss';
+@import '~@ulaval/modul-components/dist/styles/commons.scss';
+@import '~@ulaval/modul-components/dist/styles/base/base.scss';
+@import '~@ulaval/modul-components/dist/styles/base/animations.scss';
+@import '~@ulaval/modul-components/dist/styles/utils/utils.scss';

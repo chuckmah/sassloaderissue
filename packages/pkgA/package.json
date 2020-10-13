@@ -1,0 +1,14 @@
+{
+  "name": "pkgA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "dev": " webpack-dev-server --progress --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "@ulaval/modul-components": "^1.2.10"
+  }
+}
